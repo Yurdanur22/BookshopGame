@@ -44556,7 +44556,6 @@ Transform:
   - {fileID: 875541904}
   - {fileID: 1984509983}
   - {fileID: 1337235053}
-  - {fileID: 1082430429}
   m_Father: {fileID: 239074032}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &979414938
@@ -48851,80 +48850,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1082140510}
   m_Mesh: {fileID: 4300000, guid: 6a7e3b7e9a6ebb24f82dbede20898137, type: 3}
---- !u!1001 &1082430428
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 978251013}
-    m_Modifications:
-    - target: {fileID: 1503986483716240, guid: 38048b618ab289c40bd4e1fe0b7f3b84, type: 3}
-      propertyPath: m_Name
-      value: Board (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4458818241885514, guid: 38048b618ab289c40bd4e1fe0b7f3b84, type: 3}
-      propertyPath: m_RootOrder
-      value: 34
-      objectReference: {fileID: 0}
-    - target: {fileID: 4458818241885514, guid: 38048b618ab289c40bd4e1fe0b7f3b84, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.546875
-      objectReference: {fileID: 0}
-    - target: {fileID: 4458818241885514, guid: 38048b618ab289c40bd4e1fe0b7f3b84, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.625
-      objectReference: {fileID: 0}
-    - target: {fileID: 4458818241885514, guid: 38048b618ab289c40bd4e1fe0b7f3b84, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.625
-      objectReference: {fileID: 0}
-    - target: {fileID: 4458818241885514, guid: 38048b618ab289c40bd4e1fe0b7f3b84, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 4.451
-      objectReference: {fileID: 0}
-    - target: {fileID: 4458818241885514, guid: 38048b618ab289c40bd4e1fe0b7f3b84, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.091
-      objectReference: {fileID: 0}
-    - target: {fileID: 4458818241885514, guid: 38048b618ab289c40bd4e1fe0b7f3b84, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.238
-      objectReference: {fileID: 0}
-    - target: {fileID: 4458818241885514, guid: 38048b618ab289c40bd4e1fe0b7f3b84, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4458818241885514, guid: 38048b618ab289c40bd4e1fe0b7f3b84, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.00000008146034
-      objectReference: {fileID: 0}
-    - target: {fileID: 4458818241885514, guid: 38048b618ab289c40bd4e1fe0b7f3b84, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.000003546476
-      objectReference: {fileID: 0}
-    - target: {fileID: 4458818241885514, guid: 38048b618ab289c40bd4e1fe0b7f3b84, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 1.9095833e-13
-      objectReference: {fileID: 0}
-    - target: {fileID: 4458818241885514, guid: 38048b618ab289c40bd4e1fe0b7f3b84, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 360
-      objectReference: {fileID: 0}
-    - target: {fileID: 23683536338087654, guid: 38048b618ab289c40bd4e1fe0b7f3b84, type: 3}
-      propertyPath: 'm_Materials.Array.data[1]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 4cf0fa5bb9003da4da57a64ce103ccd2, type: 2}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 38048b618ab289c40bd4e1fe0b7f3b84, type: 3}
---- !u!4 &1082430429 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4458818241885514, guid: 38048b618ab289c40bd4e1fe0b7f3b84, type: 3}
-  m_PrefabInstance: {fileID: 1082430428}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1087727926
 GameObject:
   m_ObjectHideFlags: 0
@@ -71774,7 +71699,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -50, y: -50}
-  m_SizeDelta: {x: 400, y: 50}
+  m_SizeDelta: {x: 500, y: 50}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1570242749
 MonoBehaviour:
@@ -71796,7 +71721,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Oday\u0131 temizle."
+  m_text: "Oday\u0131 temizle.\n\u015Ei\u015Fe,tabak,gaz lambas\u0131 gibi e\u015Fyalar\u0131n
+    \xFCst\xFCne t\u0131kla\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -71823,7 +71749,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.75
+  m_fontSize: 19.65
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

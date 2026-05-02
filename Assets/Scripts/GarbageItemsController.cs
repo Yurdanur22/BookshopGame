@@ -23,7 +23,7 @@ public class GarbageItemsController : MonoBehaviour
                     garbageCount--;
                     Debug.Log(garbageCount);
 
-                    if (garbageCount <= 1)
+                    if (garbageCount <= 0)
                     {
                         missionText.SetActive(false);
                     }
