@@ -1,2 +1,2 @@
 # BookshopGame
-A simple coffee shop management game made with Unity.
+A simple book shop management game made with Unity.
